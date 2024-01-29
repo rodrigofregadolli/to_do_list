@@ -35,9 +35,9 @@ const addTodo = (text, category) => {
     text,
     category,
     isCompleted: false,
-
   },
 ];
+  setTodos(newTodos);
 };
 
  return (
